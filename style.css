@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+/**720p landscape sceen**/
+@media screen and (max-width: 720px){
+    nav{
+        background-color: aqua;
+    }
+}
+/**square tablets**/
+@media screen and (max-width: 640px){
+    nav{
+        background-color: rgb(253, 200, 226)255, 0, 255);
+    }
+}
+/**some tablets**/
+@media screen and (max-width: 600px){
+    nav{
+        background-color: rgb(208, 230, 182);
+    }
+}
+/**Fully Mobile**/
+@media screen and (max-width: 480px){
+    nav{
+        background-color: rgb(242, 243, 166);
+    }
+}
+
+#sitename{padding-top: 1vw; padding-bottom: 1vw;}
+
+.navlinks{
+    text-decoration: none;
+    padding: 1vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 98.9vw;
+    background-color: aliceblue;
+}
+
+section{
+    display: flex;
+
+    height: 85vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
